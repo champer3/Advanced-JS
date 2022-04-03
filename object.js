@@ -59,3 +59,24 @@
 
 // user.greet()
 
+//BIND, CALL, and APPLY
+
+// const person = {
+//     firstName: 'stephen',
+//     lastName: 'okunola',
+//     getName(){
+//         console.log(this.firstName + " " + this.lastName)
+//     }
+// }
+
+// function registerUser(country, lang){
+//     //Additional Fnctionality
+//     this.getName()
+//     console.log(`My country is ${country} and my language is ${lang}`)
+// }
+
+// // const register = registerUser.bind(person)
+
+// registerUser.call(person, "nigeria", "english")
+// registerUser.apply(person, ["nigeria", "english"])
+
